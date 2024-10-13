@@ -1,0 +1,254 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+html, body {
+    height: 100%;
+}
+.hero-image {
+background-image:linear-gradient(
+rgba(0, 0, 0, 0.5), 
+rgba(0, 0, 0, 0.5)),url("https://th.bing.com/th/id/OIG3.FoxLLE0z4wewyJNL2e64?pid=ImgGn");
+height: 80%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+display: flex;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: azure;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+nav ul li a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+    padding: 7px;
+    border-bottom: 220px;
+    float: center;
+    font-size: xx-large;
+font-family: cursive;
+    color:goldenrod;
+}
+.img {
+    display: block;
+    float: center;
+    width: 20%;
+}
+.active, .dot:hover {
+    background-color: rgb(210, 122, 8);
+}
+.scroll-container {
+    background-color: brown;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+ul {
+border: 1px solid black;
+background-color: black;
+position: fixed;
+top: 0;
+width: 100%;
+}
+li a {
+    color: beige;
+    float: none;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    display: block;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: flex;
+}
+.card {
+    box-shadow: black;
+    max-width: 100px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: center;
+    border-bottom: 90px;
+    display: block;
+    background-color: goldenrod;
+}
+.price {
+    color: brown;
+    font-size: larger;
+}
+.card button {
+    box-shadow: black;
+    border: none;
+    outline: 4;
+    padding: 12px;
+    color: goldenrod;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'grape nuts', cursive;
+    float: center;
+}
+    p11 {
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 30px;
+        text-align: center;
+        color: black;
+        float: center;
+        border-block: 10px;
+        padding: 90px;
+    }
+    body,p,ul,li {
+        padding: 0;
+        margin: 0;
+    }
+ul {
+    list-style: none;
+    width: 100%;
+}
+li {
+    display: inline-block;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: beige;
+    padding: 15px;
+}
+.sub {
+    border-radius: 10px;
+    padding: 7px;
+    background-color: goldenrod;
+    text-align: center;
+    float: center;
+    border-bottom: 220px;
+    border-top: 220px;
+}
+p {
+    text-decoration:overline;
+    color: goldenrod;
+    font-weight: 800;
+    font-style: oblique;
+    font-size: larger;
+}
+button {
+    color: black;
+    background-color: goldenrod;
+    padding: 7px;
+    float: center;
+    border-radius: 10px;
+    margin: auto;
+}
+p9 {
+    text-align: center;
+}
+p7 {
+    text-decoration:line-through;
+}
+.product-card {
+    padding: 90px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+        background-image:linear-gradient(
+        rgb(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)),url("https://tse2.mm.bing.net/th?id=OIG3.GWhx1GzjI4KnCdxnHylU&w=270&h=270&c=6&r=0&o=5&dpr=1.5&pid=ImgGn");
+        height: 392%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: flex;
+}
+.name {
+    float: center;
+    text-align: center;
+    color: goldenrod;
+    border-radius: 10px;
+    margin: auto;
+    padding: 100px;
+    font-size: xx-small;
+}
+.tito {
+     font-size: xxx-large;
+     color: goldenrod;
+    font-family: "lucida handwriting", cursive;
+}
+.team {
+    float: center;
+    padding: 20px;
+    border-radius: 20px;
+    display: block;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: azure;
+    box-sizing: 10px;
+    border-radius: 10px;
+    height: 30%;
+    width: 30%;
+}
+.bottom-left {
+    position:absolute;
+    top: 8px;
+    left: 16px;
+    transform: translate(-50% -50%);
+    font-size: xx-large;
+    color: black;
+    padding: 1px;
+    border-radius: 11px;
+    border: 1px solid black;
+    background-color: goldenrod;
+    font-weight: 900;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    display: block;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: flex;
+}
+.end {
+    text-align: center;
+    padding: 30px;
+    background-color: goldenrod;
+    font-weight: 900;
+}
+.p33 {
+    font-size: xxx-large;
+    font-weight: 900;
+}
